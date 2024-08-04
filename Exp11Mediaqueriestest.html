@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            /*hsl :hue, saturation,lightness */
+            .container {
+                margin:0 auto;
+                background:hsl(154,94%,37%);
+                box-sizing:border-box;
+            }
+            /* Smartphones(portrait and landscape)---------- */
+            @media screen and (min-width:767px) {
+            .container{
+                    width:100%;
+                    padding:5px,10px;
+                }
+            }
+            /* tablets, iPads(portait and landscape)----------*/
+            @media screen and (min-width:271px) and (max-width:541px) {
+            .container{
+                    width:780px;
+                    padding:5px,10px;
+                }
+            }        
+            @media screen and (min-width:120px){
+            .container{
+                width:1200px;
+                padding:5px 10px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <p>CSS3 Web Technologies is essential in mobile app development, particularly for Android applications. Android Studio, the official IDE for Android development, uses Java as its primary language. Developers leverage Java's flexibility and extensive libraries to create feature-rich mobile applications<p>
+        </div>
+    </body>
+</html>
